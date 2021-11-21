@@ -47,7 +47,7 @@ namespace EstoqueClient2
             Console.WriteLine("\n---------------------\n");
 
             // 6) Verificar o estoque do Produto 5 novamente
-            Console.WriteLine("Test 4: Verificar o estoque atual do Produto 5");
+            Console.WriteLine("Test 4:  Verificar o estoque do Produto 5 novamente");
             resultadoVerificarProduto5 = proxy.ConsultarEstoque("5000");
             Console.WriteLine("Estoque Produto 5: {0}", resultadoVerificarProduto5);
             Console.WriteLine("\n---------------------\n");
